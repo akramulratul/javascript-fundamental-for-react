@@ -34,6 +34,24 @@ Others
 2. ternary operator 
 3. logical and logical or && || 
 4. JSON (stringify,parse)
+5. +,
 
 
 */
+
+const x = 50;
+const y = 100;
+const obj = {
+  x: x,
+  y: y,
+};
+
+//shortcut
+const obj1 = { x, y };
+const name = "Solimullah";
+const area = "Dhaka";
+const nobab = {
+  name: name,
+  area: area,
+};
+const nobab2 = { name, area };
